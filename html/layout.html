@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        margin: auto;
+        width: 1000px;
+      }
+      .hero-columns {
+        display: grid;
+        grid-template-columns: auto 350px;
+      }
+      .hero {
+        color: white;
+        background-image: url("https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55db1685cc33586373626.jpeg");
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        background-size: cover;
+        background-position: center center;
+      }
+      .logo {
+        flex-grow: 1;
+      }
+      .logo img {
+        width: 150px;
+      }
+      .tech-logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .tech-logos div {
+        padding: 10px;
+      }
+      .tech-logos div img {
+        width: 70px;
+      }
+      body {
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        background-color: #363045;
+        padding: 20px 30px;
+      }
+      .flex-center {
+        display: flex;
+        align-items: center;
+      }
+      .tagline {
+        font-size: 1.3em;
+        color: white;
+        flex-grow: 1;
+        text-align: right;
+      }
+      .accent-image {
+        width: 100%;
+      }
+      .super-title {
+        font-size: 2em;
+      }
+      .title {
+        font-size: 3em;
+      }
+      .padding-30 {
+        padding: 30px;
+      }
+      .cta {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .cta a {
+        background-color: rgb(0, 173, 255);
+        border-radius: 15px;
+        color: white;
+        font-size: 1.3em;
+        padding: 10px;
+        text-decoration: none;
+      }
+      .center { text-align: center;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container flex-center">
+        <div class="logo">
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55f92685cc3e25e3736cb.png"
+            alt="CodeX Academy Logo"
+          />
+        </div>
+
+        <!-- <ul>
+                    <li><a href="https://go.codex.academy">Home</a></li>
+                    <li><a href="#about">Projects</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#enroll" class="enroll">Enroll</a></li>
+                </ul> -->
+
+        <div class="tagline">
+          Learn to code. <strong>Save the world.</strong>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-columns padding-30">
+        <div class="details">
+          <div class="super-title">Software Development Skills to</div>
+          <div class="title">Upgrade Your Career</div>
+
+          <ul>
+            <li>Modern, Marketable Skills</li>
+            <li>1-On-1 Mentoring Sessions</li>
+            <li>Group Classes</li>
+            <li>Self-Paced, Mastery-Based</li>
+            <li>100% Online</li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <img
+              src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f56a29685cc32f003738bd.jpeg"
+              class="accent-image"
+              alt="Man using computer"
+            />
+          </div>
+          <div class="cta">
+            <a href="https://go.codex.academy/program">Start Application</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-30 container">
+      <h1 class="title center">Valuable, Modern Skills</h1>
+      <div class="tech-logos">
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc31c42373642.png"
+            alt="HTML5"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc35475373636.png"
+            alt="VS Code"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc3ab7e37364b.png"
+            alt="AWS"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc3772737364c.svg+xml"
+            alt="C#"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc33fb0373648.png"
+            alt="JavaScript"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc3263f373641.png"
+            alt="NodeJS"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de7685cc37fdf37364d.png"
+            alt="CSS"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc32426373643.png"
+            alt="Jest"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc3358f373640.png"
+            alt="PostgreSQL"
+            class="tech-logo"
+          />
+        </div>
+        <div>
+          <img
+            src="https://assets.cdn.msgsndr.com/tQf1jMr6eaubhf5HqxHn/media/61f55de6685cc37dc1373637.png"
+            alt="NPM"
+            class="tech-logo"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

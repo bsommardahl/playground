@@ -1,0 +1,25 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+}
+.red {
+  background-color: rgba(252, 0, 0, 0.3);
+}
+.yellow {
+  background-color: rgba(221, 228, 24, 0.3);
+}
+.blue {
+  background-color: rgba(60, 29, 195, 0.3);
+}
+.green {
+  background-color: rgba(34, 109, 63, 0.3);
+}
+.purple {
+  background-color: rgba(151, 24, 173, 0.3);
+}
+.hide {
+  display: none;
+}

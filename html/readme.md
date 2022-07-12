@@ -14,3 +14,4 @@ Links:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
 - https://www.geeksforgeeks.org/explain-nesting-and-grouping-in-css/#:~:text=Nesting%20property%20facilitates%20nesting%20one,of%20selectors%20at%20a%20time.
 - https://www.w3schools.com/tags/tag_area.asp
+- https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: blue;
+      }
+      form {       
+        background-color: green;
+      }
+      input {
+        background-color: red;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <form method="GET" action="">
+      <p>
+        name:
+        <input type="text" name="name" required minlength="3" maxlength="200" />
+      </p>
+      <p>email: <input type="email" name="email" required /></p>
+      <p>age: <input type="number" name="age" min="13" max="18" required /></p>
+      <p>blog: <input type="url" name="blog" /></p>
+
+      <p><button type="submit">Register</button></p>
+    </form>
+  </body>
+</html>

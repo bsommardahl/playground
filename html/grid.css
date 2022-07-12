@@ -1,0 +1,7 @@
+#urgent {
+  background-color: red;
+  border: black 5px solid;
+}
+.red {
+  background-color: rgba(252, 0, 0, 0.6);
+}
